@@ -1,0 +1,248 @@
+
+/* ====================================== Header Section CSS code Start ========================================== */
+  .header {
+    height: auto;
+    justify-content: center;
+    padding: 2px 10px 5px 10px;
+    border-radius: 10px;
+    width: auto;
+    background-color: rgb(255, 209, 209);
+    box-shadow: 2px 2px 20px 3px rgb(73, 73, 73);
+  }
+
+  /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sticky_header */
+    .sticky {position: fixed; top: 0; width: 100%;}
+      .sticky + .para {padding-top: 102px;}
+
+  /* Button style: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic */
+  /* https://emojidb.org/register-emojis?utm_source=user_search */
+
+  /*This is Home butten section code*/
+    .button {
+      border-style:groove;
+      height: 30px; width: auto;
+      margin: 10px 15px 10px 29px;
+      background-color: #e1007b; /* Button Color */
+      border-radius: 10px;
+      padding: 10px 10px 5px 10px;
+      color: white; /* Text Color */
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px; /* Text Size */
+      display: inline-block;
+      transition: transform .2s; /* Button hover Animation */
+    }
+
+    /*hover->a link when the user mouses over it */
+    .button:hover {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5); 
+    }
+    .socialButtons:hover {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5); 
+    }
+
+    h1 {
+      padding: 2%;
+      letter-spacing: 1px;
+      font-size: 40px;
+      margin: 0;
+      font-weight: italic;
+      color:  #e1007b;
+      text-align: center;
+      text-shadow: -3px 3px rgb(255, 209, 209);
+    }
+/* ====================================== Header Section CSS code End ========================================== */
+
+/* ====================================== Body Page Section CSS code Start ========================================== */
+  /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_ribbon */
+  #btn {
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #282A35;
+    color: white;
+    position: relative;
+    }
+  .ribbon {
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: -25px;
+    top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #ff9800;
+    color: white;
+  }
+
+  img{
+    border-radius: 25px 25px;
+    padding: 10px 10px 1px 1px;
+  }
+
+  /*  https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_card  */
+  div.polaroid {
+    width: 30%;
+    background-color: white;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-right: 25px;
+    float: left;
+  }  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;    
+  }
+
+
+  body {
+    background-color: rgb(255, 255, 255);    
+  } 
+  #para {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    padding: 2px 50px 0px 50px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px 3px rgb(73, 73, 73);    
+  }
+  h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #1d0483;
+    font-family: 'Times New Roman', Times, serif; 
+  } 
+  p {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  
+  .content p::first-letter {
+    color:  #e1007b;
+    font-size: 50px; /* Adjust the size as needed */
+    font-weight: bold; /* Optionally make it bold */
+    float: left; /* Float it to the left to create a drop cap effect */
+    margin-right: 5px; /* Add some spacing to the right of the big letter */
+    margin-top: -5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+  /*This is Home butten section code*/
+  #box {
+    width: 300px;
+    background: #EEE;
+    padding: 2px 10px 2px 10px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3b3a3a;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  #box2 {
+    width: 230px;
+    background: #EEE;
+    padding: 2px 10px 2px 10px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3b3a3a;
+    border-radius: 10px;
+    margin: 10px;
+  }
+/* ====================================== Body Page Section CSS code Endt ========================================== */
+
+
+/* ====================================== Footer Section CSS code Start ========================================== */
+  #footer{
+    height: 120px;
+    width: auto;
+    padding: 1px 1px 1px 1px; 
+    border-radius: 10px;
+    background-color: rgb(255, 209, 209);
+    box-shadow: 2px 2px 20px 3px rgb(73, 73, 73);
+  }
+  .socialButtons {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    float: right; 
+    margin-top: 10px; 
+    margin-right: 10px;
+  }
+  h5 {
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 25px;
+    font-weight: italic;
+    color:  #e1007b;
+    text-align: left;  
+  }
+/* ====================================== Footer Section CSS code End ========================================== */
+
+
+
+/* ====================================== Registration and Login page CSS code Start ========================================== */
+  /* Style for the form */
+  #bootstrapForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+  }
+
+  /* Style for fieldset */
+  fieldset {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    text-align: left;
+  }
+
+  /* Style for legend */
+  legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 20px;  
+    font-weight: italic;
+    color:  #e1007b;
+    text-align: left;
+  }
+  /* Style for login page */
+  label {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 20px;  
+    font-weight: italic;
+    color:  #e1007b;
+    text-align: left;
+  }
+  /* Style for radio buttons */
+  .radio {
+    margin-bottom: 10px;
+  }
+/* ====================================== Registration and Login page CSS code End ========================================== */
+
+
+
